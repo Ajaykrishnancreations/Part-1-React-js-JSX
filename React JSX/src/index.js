@@ -115,9 +115,15 @@ ReactDOM.render(
 //-------------------JSX using (if & else) with a new method of ( Ternary Operator ) -------------------------------------
 
 
-let age=18;
+//let age=18;
 
-let element=<h1>{(age)<18?"<div>Welcome to vote":"Sorry your not elegbile to vote"}<hr></hr></h1>
+//let element=<h1>{(age)>=18?"Welcome to vote":"Sorry your not elegbile to vote"}<hr></hr></h1>
+
+//--------------------------
+let x=10;
+let y=20;
+let z=30;
+ let element=<h1>Ternary opertor<br></br>{(x)>(y)&&(x)>(z)?(x):(y)>(z)?y:z}</h1>;
 
 
 ReactDOM.render(
